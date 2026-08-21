@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="194"
+     viewBox="0 0 490 194">
+  <style>
+    .fade-row {
+      opacity: 0;
+      transform: translateX(-8px);
+      animation: fadeSlide 0.4s ease-out forwards;
+    }
+    @keyframes fadeSlide {
+      to { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+  <rect width="100%" height="100%" rx="10" fill="#10151c" stroke="#242c38" />
+  <text x="24" y="30" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="11" letter-spacing="2" fill="#39d353">NEOFETCH</text>
+  <line x1="24" y1="40" x2="466" y2="40" stroke="#242c38" stroke-width="1" />
+  <g class="fade-row" style="animation-delay:0.00s"><text x="24" y="54" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#39d353" font-weight="600">now</text><text x="78" y="54" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#c9d1d9">building AgentSec + Forager</text></g><g class="fade-row" style="animation-delay:0.10s"><text x="24" y="84" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#39d353" font-weight="600">focus</text><text x="78" y="84" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#c9d1d9">cybersecurity, embedded systems, web3</text></g><g class="fade-row" style="animation-delay:0.20s"><text x="24" y="114" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#39d353" font-weight="600">stack</text><text x="78" y="114" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#c9d1d9">python, next.js/react, supabase, linux</text></g><g class="fade-row" style="animation-delay:0.30s"><text x="24" y="144" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#39d353" font-weight="600">into</text><text x="78" y="144" font-family="Consolas, 'SF Mono', 'JetBrains Mono', monospace" font-size="14" fill="#c9d1d9">3D printing, retro gaming, homelab</text></g>
+</svg>
